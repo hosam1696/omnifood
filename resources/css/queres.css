@@ -1,0 +1,378 @@
+
+/* This Is For medium Phones */
+/* 767px */
+
+@media only screen and (max-width:780px){
+    .hero-text{
+    display: flex;
+    justify-content: center;
+    height:90vh;
+
+    align-content: center;
+    flex-flow:wrap
+}
+    .section-features p{
+        width:80%;
+    }
+    .multi div{
+    width:50%;
+     float:left;
+    padding:5% 0;
+    align-items:
+}
+    .multi div i{
+    font-size:350%;
+    color:#e67e22;
+        display:block;
+        margin-left:25%
+}
+    .section-features p:after{
+    display:none;
+}
+.multi div  h4{
+    margin:15px 0 ;
+    color:#817e7e;
+    clear:left;
+    text-align: left
+    } 
+}
+   input,textarea,select{
+    width:100%;
+    padding:10px;
+    border:1px solid #eee;
+    border-radius:3px
+}
+/* ******header ******* */
+    
+
+
+/* This Is For Small Phones */
+/* 480px */
+@media only screen and (max-width:480px){
+/* ******header ******* */
+    .titles .about-cites img{
+    width:80%;
+    -webkit-box-shadow: -2px 2px 5px 1px rgba(232, 232, 232, 0.53);
+    -moz-box-shadow: -2px 2px 5px 1px rgba(232, 232, 232, 0.53);
+    -o-box-shadow: -2px 2px 5px 1px rgba(232, 232, 232, 0.53);
+    box-shadow: -2px 2px 5px 1px rgba(232, 232, 232, 0.53);
+}.meals .effect img {
+   overflow: hidden;
+    height: 35vh;
+    width:100%;
+}
+ .multi div{
+    width:25%;
+     float:left;
+    padding-left:10%;
+    align-items:
+}
+
+    .meals .effect {
+   overflow: hidden;
+
+    height: 35vh;
+}
+
+.hero-text{
+    font-size:70%;
+    margin-top:20vh
+}
+.section-features p{
+    width:80%;
+    margin: auto;
+    color:#575656;
+    text-align: justify
+    
+} 
+    nav .nav-res{
+        height:45px;
+        width:45px;
+        position:relative;
+        top:30px;
+        right:-250px;
+        cursor: pointer
+    }
+    nav .nav-res:hover.nav-res span{
+    background-color:#fff;
+    }
+    nav .nav-res span{
+        height:5px;
+        background-color:#888;
+        display: block;
+        margin:15%;
+        border-radius:2px;
+            transition:all .3s ease-in
+    }
+    
+    nav .site-logo img{
+    width:100px;
+    height:100px;
+    padding-top:10px;
+    margin:0 10%
+}
+   
+    nav ul{
+        width:200px;
+        display: none;
+        clear: both;
+
+        position:absolute;
+        right:10px;
+        top:100px;
+        background:linear-gradient(90deg,#e67e22,rgba(230, 126, 34, 0.5));
+        border-radius:5px
+    }
+nav ul li{
+    list-style: none;
+    display:block;
+     width:200px;
+
+    }nav ul li a{
+    display:block;
+    padding:10px 10px;
+    color:#eee;
+    border-bottom:1px solid rgba(230, 126, 34, 0.65);
+    letter-spacing: 1px;
+    transition:all .3s ease-in-out
+}
+    nav ul li a:hover{
+        background:rgba(230, 126, 34, .8)
+    }
+    nav ul li a:after{
+    display:none;
+}
+/*  ******* multi ***** */
+.section-features h2{
+     font-size:110%;
+    margin-bottom:40px;
+    color:#363434;
+    font-weight:bold
+}
+    .section-features p{
+    width:80%;
+    margin: auto;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color:#575656;
+    
+}
+.multi div{
+    width:100%;
+     float:left;
+    box-sizing: border-box
+}
+    .multi div  h4{
+    margin:15px 0 ;
+    color:#817e7e;
+    text-align: left;
+    clear:left
+    }
+    .meals img{
+    display: block;
+    float: left;
+    width:50%;
+    padding:0;
+    margin:0;
+
+}
+/* ******* cities ****** */ 
+    
+.titles h2{
+     font-size:90%;
+    margin-bottom:40px;
+    color:#363434;
+    font-weight:bold;
+    text-align: center
+}
+.titles .about-cites{
+    width:100%;
+    float:left;
+   border-bottom:1px solid #f5f5f5;
+    margin:auto;
+    padding:15px;
+    border-right:none
+} 
+    .titles .about-cites img{
+        border:3px solid #fff
+        
+    }
+/* ******* sign up *********** */
+    .signup h2{
+    font-size:90%;
+    margin-bottom:50px;
+    padding-top:30px;
+    color:#363434;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+    .signup{
+        padding:0
+    }
+    .signup form{
+    width:100%;
+    overflow: hidden;
+    margin:auto ;
+    font-size:16px;
+        padding-bottom:20px
+}
+    input,textarea,select{
+    width:90%;
+    padding:10px;
+    border:1px solid #eee;
+    border-radius:3px
+}
+    input[type="submit"]{
+    background-color:#e67e22;
+    border-radius:20px;
+     color:#fff;
+    border:none;
+    width:100px;
+    font-family: 'lato'
+}
+/* ******** steps ******* */
+
+.iphone h2{
+     font-size:90%;
+    margin-bottom:40px;
+    color:#363434;
+    font-weight:bold;
+    text-align: center;
+    margin: 40px
+}
+.iphone p{
+    padding: 10px;
+    margin: auto;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color:#575656;
+    font-size: 90%
+    
+}
+    .iphone-img{
+    margin: auto;
+    width:100%;
+    }
+    .iphone-img img{
+    width:70%;
+    margin: auto ;
+
+}
+    .hero-text{
+    display: flex;
+    justify-content: center;
+        height:90vh;
+
+    align-content: center;
+    flex-flow:wrap
+}
+    .fixed-steps{
+    width:100%;
+    padding-top:30px;
+        box-sizing:border-box;
+    
+}
+    .fixed-steps .numbers{
+    width:20%;
+    border:2px solid #e67e22;
+    border-radius:50%;
+   display: inline-block;
+    text-align: center;
+    width:55px;height: 55px;
+    color:#e67e22;
+    margin:0 1% 0 2%;
+    vertical-align: middle;
+    font-size:200%
+    }
+    .iphone .fixed-steps p{
+    margin:0;
+
+    width:70%;
+    background-color:#f2f2f2;
+    display: inline-block;
+    position:relative;
+    border-radius: 4px;
+    border-left:3px solid #e67e22
+}
+.iphone .fixed-steps a img{
+    margin:30px 0 30px 30px;
+}
+
+/* ******** advamtages */ 
+.advantages{
+        padding:50px 0 
+    }
+.advantages .adv-reasons .number{
+    width:100%;
+    float:left;
+    padding: 30px;
+    margin:0;
+    text-align:left;
+    color:#f5f5f5
+
+}
+    .advantages  h1{
+    color:#fff;
+    text-align: center;
+    letter-spacing: 2px;
+        font-size:100%;
+        width:100%
+}
+.titles .about-cites i span{
+    padding-left:10%;
+    color:#7e7e7e;
+   font-size: 85%
+}
+    .advantages  h1:after{
+    content:"";
+    height:2px;
+    width: 100px;
+    background-color:#e67e22;
+    display:block;
+    margin:10px auto
+}
+/* plans *********************************/
+
+.plans .plan1{
+    width:100%;
+    box-shadow:1px 1px 5px #ccc;
+    float: left;
+    border: 1px solid #ccc;
+    background:linear-gradient(#ebebeb 0%,#f2f2f2 30%);
+    border-radius:5px 5px 0 0
+}
+    .test{
+        padding:50px 20px
+    }
+.plans .plan1:nth-child(2){
+    margin:8% 0
+} 
+     .multi div i{
+    font-size:350%;
+    color:#e67e22;
+        display:block;
+        margin-left:30%
+} 
+/* header */
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
