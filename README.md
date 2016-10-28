@@ -1,4 +1,5 @@
 # Single page Omnifood
 HTML / css / javascript / responsive design
-visit the wesite 
+visit the website
+<br> 
 https://hosamsam.github.io/omnifood/
