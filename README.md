@@ -2,4 +2,4 @@
 HTML / css / javascript / responsive design
 <br> visit the website
 
- https://hosamsam.github.io/omnifood/
+ https://hosamsam.github.io/omnifood/resources
